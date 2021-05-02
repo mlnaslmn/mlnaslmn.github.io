@@ -105,3 +105,28 @@ footer {
 	color: #fff;
 	text-align: center;
 }
+@media screen and (max-width: 768px){
+	.container {
+		width: 90%
+	}
+	header h1{
+		text-align: center;
+		float: none;
+
+	}
+	header ul {
+		text-align: center;
+		float: none
+	}
+	.pjj {
+		text-align: center;
+		margin-bottom: 15px
+	}
+	.about {
+		text-align: center;
+		margin-top: 250px
+	}
+	.footer {
+		margin-top: 2000px
+	}
+}
