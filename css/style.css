@@ -56,8 +56,8 @@ header ul li a:hover {
 .banner {
 	height: 60vh;
 	background-image: url("../banner/banner.jpg");
-	position: absolute;
-	display: flex;
+	position: relative;
+	display: grid;
 	justify-content: center;
 	align-items: center;
 }
