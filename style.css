@@ -56,7 +56,7 @@ header ul li a:hover {
 .banner {
 	height: 60vh;
 	background-image: url("../banner/banner.jpg");
-	position: relative;
+	position: absolute;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -64,7 +64,7 @@ header ul li a:hover {
 .banner h2 {
 	padding:20px 25px;
 	z-index: 1;
-	border: 3px solid #F7F9F9;
+	border: 5px double #F7F9F9;
 	color:#F7F9F9;
 
 }
