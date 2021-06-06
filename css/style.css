@@ -44,6 +44,7 @@ header ul li {
 header ul li a {
 	padding:25px 20px;
 	display: inline-block;
+	outline: 3px solid rgba(133, 193, 233, 0.4);
 }
 header ul li a:hover {
 	background-color: rgba(133, 193, 233, 0.4);
