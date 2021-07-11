@@ -1,0 +1,30 @@
+.jumbotron {
+  padding-top: 14rem;
+  background-image: url(img/banner.jpg);
+  background-color: #222;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  margin-bottom: 4rem;
+  position: relative;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+.medsos ul li {
+  display: inline-block;
+  color: white;
+  margin-right: 8px;
+  padding-top: 4rem;
+}
+
+.medsos ul li a {
+  color: black;
+}
+
+section> *not:(#galery) {
+  padding-top: 5rem;
+}
