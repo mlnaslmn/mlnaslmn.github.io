@@ -41,7 +41,7 @@ section> *not:(#galery) {
   background-size: cover;
   padding: 10rem 0 0;
   max-width: 55ch;
-  border-radius: 2rem;
+  border-radius: 1rem;
   overflow: hidden;
   width: 70%;
   font-family: sans-serif;
