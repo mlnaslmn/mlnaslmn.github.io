@@ -35,13 +35,13 @@ section> *not:(#galery) {
   padding-top: 5rem;
 }
 
-.card{
+.card-index:not(galery.html){
   color: var(--clr-neutral-100);
-  background-image:url(img/Penulis.JPG);
+  background-image:url(img/Penulis.jpg);
   background-size: cover;
   padding: 10rem 0 0;
   max-width: 55ch;
-  border-radius: 1rem;
+  border-radius: 2rem;
   overflow: hidden;
   width: 70%;
   font-family: sans-serif;
@@ -49,7 +49,7 @@ section> *not:(#galery) {
   transition: transform 500ms ease;
 }
 
-.card-content{
+.card-index-content{
   --padding: 1rem;
   padding: var(--padding);
    background-image: linear-gradient(hsl(0,0%,0%,0),
@@ -57,26 +57,26 @@ section> *not:(#galery) {
     hsl(0,0%,0%,1));
 } 
 
-.card:hover,
-.card:focus-within {
+.card-index:hover,
+.card-index:focus-within {
   transform: scale(1.05);
 }
 
-.card-title{
+.card-index-title{
   position:relative;
   width: max-content;
 } 
 
-.card-body {
+.card-index-body {
   color: rgb(255,255,255,.8);
   text-align: left;
 }
 
-.card-body p {
+.card-index-body p {
   left: -1rem;
 }
 
-.card-title::after{
+.card-index-title::after{
   content: "";
   position: absolute;
   height: 3px;
@@ -90,40 +90,40 @@ section> *not:(#galery) {
 } 
 
 @media (hover) {
-  .card-content{
+  .card-index-content{
   transform: translateY(55%);
   transition: transform 500ms ease;
   }
-  .card:hover .card-content,
-  .card:focus-within .card-content{
+  .card-index:hover .card-index-content,
+  .card-index:focus-within .card-index-content{
     transform: translateY(0);
     transition-delay: 500ms;
   }
 
-  .card:focus-within .card-content {
+  .card-index:focus-within .card-index-content {
     transition-duration: 0ms;
   }
 
-  .card-content > *:not(.card-title) {
+  .card-index-content > *:not(.card-index-title) {
     opacity: 0;
     transition: opacity 300ms linear;
   }
 
-  .card:hover .card-content > *:not(.card-title),
-  .card:focus-within .card-content > *:not(.card-title) {
+  .card-index:hover .card-index-content > *:not(.card-index-title),
+  .card-index:focus-within .card-index-content > *:not(.card-index-title) {
     opacity: 1;
     transition-delay: 800ms;
   }
-  .card-title::after{
+  .card-index-title::after{
     transform: scaleX(0);
   }
 }
 
-.card:hover .card-title::after,
-.card:focus-within .card-title::after{
+.card-index:hover .card-index-title::after,
+.card-index:focus-within .card-index-title::after{
   transform: scaleX(1);
 }
   @media screen and (max-width: 800px){
-  .card: {
+  .card-index: {
     width: 1000%;
 }
