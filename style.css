@@ -25,6 +25,6 @@
   color: black;
 }
 
-section> *not:(#galery) {
+section:not(#galery) {
   padding-top: 5rem;
 }
